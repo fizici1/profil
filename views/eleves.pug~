@@ -1,0 +1,7 @@
+extends layout.pug
+
+block content
+	h1 Gestion des élèves
+
+append scripts
+	script(src=='/javascript/eleves.js')
